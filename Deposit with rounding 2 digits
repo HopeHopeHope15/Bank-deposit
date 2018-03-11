@@ -1,0 +1,5 @@
+#banking deposit. User makes a deposit of a roubles for the term of years ta 10% (year interest rate)
+#function bank
+def bank (a, years):
+    y=float(a)*(1+0.1)**float(years)
+    print (round(y, 2))
